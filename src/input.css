@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.btns {
+    @apply text-xl mt-5 mx-auto md:mx-10 xl:mx-5 px-5 py-3 font-medium bg-slate-200 max-w-xs rounded text-slate-900 hover:bg-slate-300 cursor-pointer transition ease-in duration-100
+}

@@ -1,0 +1,235 @@
+{
+  "materials": [
+    {
+      "id": "plastic_bottle",
+      "name": "Botol Plastik",
+      "image": "../assets/img/materials/plastic_bottle.png"
+    },
+    {
+      "id": "glass_bottle",
+      "name": "Botol Kaca",
+      "image": "../assets/img/materials/glass_bottle.png"
+    },
+    {
+      "id": "cardboard",
+      "name": "Kardus",
+      "image": "../assets/img/materials/cardboard.png"
+    },
+    {
+      "id": "can",
+      "name": "Kaleng",
+      "image": "../assets/img/materials/can.png"
+    },
+    {
+      "id": "straw",
+      "name": "Sedotan",
+      "image": "../assets/img/materials/straw.png"
+    },
+    {
+      "id": "icecream_stick",
+      "name": "Stik Es Krim",
+      "image": "../assets/img/materials/icecream_stick.png"
+    },
+    {
+      "id": "plastic_spoon",
+      "name": "Sendok Plastik",
+      "image": "../assets/img/materials/plastic_spoon.png"
+    },
+    {
+      "id": "jar",
+      "name": "Toples Bekas",
+      "image": "../assets/img/materials/jar.png"
+    },
+    {
+      "id": "bond_paper",
+      "name": "Kertas Bond",
+      "image": "../assets/img/materials/bond_paper.png"
+    },
+    {
+      "id": "plastic_bag",
+      "name": "Kantong Plastik",
+      "image": "../assets/img/materials/plastic_bag.png"
+    },
+    {
+      "id": "Flanel",
+      "name": "Kain Flanel",
+      "image": "../assets/img/materials/flanel.png"
+    }
+  ],
+
+  "crafts": [
+    {
+      "id": "piggy_bank",
+      "name": "Celengan Botol",
+      "image": "../assets/img/products/piggy_bank.jpg",
+      "required": ["plastic_bottle", "cardboard"],
+      "steps": [
+        "Potong bagian samping botol plastik sebagai lubang masuk uang.",
+        "Lapisi botol menggunakan potongan kardus untuk membuat pola.",
+        "Rekatkan semua bagian menggunakan lem.",
+        "Dekorasi luar botol sesuai kreativitas."
+      ],
+      "video": "https://www.youtube.com/embed/9LovD6VCa40"
+    },
+    {
+      "id": "flower_vase",
+      "name": "Vas Bunga",
+      "image": "../assets/img/products/flower_vase.jpg",
+      "required": ["glass_bottle", "straw"],
+      "steps": [
+        "Cuci bersih botol kaca.",
+        "Potong-potong sedotan menjadi bentuk kecil.",
+        "Tempelkan potongan sedotan menyelimuti seluruh botol.",
+        "Tambahkan pita atau cat untuk hiasan akhir."
+      ],
+      "video": "https://www.youtube.com/embed/3D22qKdyjpI"
+    },
+    {
+      "id": "mini_rocket",
+      "name": "Roket Mainan",
+      "image": "../assets/img/products/mini_rocket.jpg",
+      "required": ["plastic_bottle", "cardboard"],
+      "steps": [
+        "Gunakan botol plastik sebagai badan roket.",
+        "Buat sirip roket dari karton tebal.",
+        "Pasang sedotan kecil sebagai dekorasi atau detail mesin.",
+        "Warnai dan dekorasi roket sesuai keinginan."
+      ],
+      "video": "https://www.youtube.com/embed/Y_5t1zGssSI"
+      
+    },
+    {
+      "id": "lantern",
+      "name": "Lampion Kaleng",
+      "image": "../assets/img/products/lantern.jpg",
+      "required": ["can", "glass_bottle", "plastic_bottle"],
+      "steps": [
+        "Lubangi kaleng membentuk pola menggunakan paku.",
+        "Tambahkan karton sebagai tatakan bawah.",
+        "Cat bagian luar kaleng agar lebih menarik.",
+        "Tambahkan lilin kecil."
+      ],
+      "video": "https://www.youtube.com/embed/RC3mE2UWrVpkkgUL"
+    },
+    {
+      "id": "pencil_holder",
+      "name": "Tempat Pensil",
+      "image": "../assets/img/products/pencil_holder.jpg",
+      "required": ["jar", "icecream_stick"],
+      "steps": [
+        "Bersihkan toples bekas.",
+        "Susun stik es krim di bagian luar toples dan rekatkan.",
+        "Tambahkan pita atau cat untuk finishing.",
+        "Biarkan kering sebelum digunakan."
+      ],
+      "video": "https://www.youtube.com/embed/Bx6xotRxktbTWRGN"
+    },
+    {
+      "id": "flower_art",
+      "name": "Hiasan Bunga Sedotan",
+      "image": "../assets/img/products/flower_art.jpg",
+      "required": ["straw"],
+      "steps": [
+        "Potong sedotan menjadi bentuk kelopak.",
+        "Susun kelopak membentuk bunga.",
+        "Rekatkan setiap lapisan dengan lem.",
+        "Tambahkan daun dari karton bila perlu."
+      ],
+      "video": "https://www.youtube.com/embed/1mxPopmdiw0"
+    },
+    {
+      "id": "spoon_flower",
+      "name": "Bunga Sendok Plastik",
+      "image": "../assets/img/products/spoon_flower.jpg",
+      "required": ["plastic_spoon"],
+      "steps": [
+        "Patahkan gagang sendok plastik.",
+        "Susun sendok membentuk kelopak bunga.",
+        "Rekatkan tiap sendok dengan lem.",
+        "Warnai bunga sesuai selera."
+      ],
+      "video": "https://www.youtube.com/embed/VBvwdSC0POU"
+    },
+    {
+      "id": "pompom_flower",
+      "name": "Bunga Pompom",
+      "image": "../assets/img/products/pompom_flower.jpg",
+      "required": ["plastic_bag"],
+      "steps": [
+        "Lipat plastik kresek beberapa lapis lalu potong menjadi persegi.",
+        "Tumpuk 8–10 lembar, lalu lipat seperti kipas.",
+        "Ikat bagian tengah lipatan menggunakan kawat/tali.",
+        "Bentuk ujung lipatan menjadi bulat atau runcing (dipotong sedikit).",
+        "Buka lipatan satu per satu hingga membentuk bunga pompom"
+      ],
+      "video": "https://www.youtube.com/embed/VwVBqZhyaFQ"
+    },
+    {
+      "id": "glass_lamp",
+      "name": "Lampu Hias Botol Kaca",
+      "image": "../assets/img/products/flower_art.jpg",
+      "required": ["glass_bottle", "bottle_plastic"],
+      "steps": [
+        "Cuci bersih botol kaca dan pastikan labelnya sudah hilang",
+        "Siapkan lampu LED kawat (fairy lights) yang menggunakan baterai",
+        "Masukkan ujung lampu LED kawat secara perlahan ke dalam lubang botol",
+        "Susun kawat lampu di dalam botol agar cahayanya menyebar merata",
+        "Letakkan kotak baterai di samping botol atau sembunyikan di area yang tidak terlihat",
+        "Nyalakan lampu untuk digunakan sebagai hiasan meja."
+      ],
+      "video": "https://www.youtube.com/embed/1OjJuwCgpms"
+    },
+    {
+      "id": "wall_decoration",
+      "name": "Hiasan Dinding",
+      "image": "../assets/img/products/wall_decoration.jpg",
+      "required": ["bond_paper"],
+      "steps":[
+        "Potong kardus membentuk lingkaran keinginan",
+        "Potong kertas HVS berbentuk persegi kecil",
+        "Lipat kertas seperti di video",
+        "Tempelkan kertas yang sudah dilipat ke kardus melingkar di potongan kardus nya",
+        "Potong sebagian kertas krep seperti di video",
+        "Potong kertas HVS membentuk lingkaran kecil",
+        "Lem kertas krep, lalu gulung dan lakukan seperti video",
+        "Tempel ke bagian tengah lingkaran kardus"
+      ],
+      "video": "https://www.youtube.com/embed/j1zXMpc-1As"
+    },
+    {
+      "id": "bird_stick",
+      "name": "burung dari stick",
+      "image": "../assets/img/products/bird_stick.jpg",
+      "required": ["icecream_stick", "cardboard"],
+      "steps":[
+        "Buat sayap: susun 8–12 stik menyerupai kipas, rekatkan ujungnya pada satu poros stik; tumpuk 1–2 lapis untuk ketebalan.",
+        "Ulangi untuk sayap kedua (simetris).",
+        "Buat badan: tumpuk 6–8 stik sejajar, rekatkan sisi-sisinya membentuk balok kecil; rapikan ujung sehingga sedikit melengkung.",
+        "Buat ekor: susun 3–5 stik meruncing (lebih pendek), rekatkan ke bagian belakang badan.",
+        "Buat kepala & paruh: potong satu stik setengah untuk kepala; potong kecil untuk paruh; rekatkan di depan badan.",
+        "Pasang sayap ke kedua sisi badan dengan lem kuat, pastikan titik poros sedikit menonjol agar sayap dapat diatur.",
+        "Pasang badan ke tiang kecil yang tertancap pada alas kayu untuk dudukan; rekatkan kuat.",
+        "Finishing: amplas tepi kasar, beri cat atau varnish jika ingin, biarkan kering.",
+        "Cek kestabilan dan perbaiki lem yang longgar."
+      ],
+      "video": "https://www.youtube.com/embed/Q5m4CV9qLGA"
+    }
+  ],
+
+  "recipes": [
+    { "materials": ["cardboard"], "result": 1 },
+    { "materials": ["icecream_stick"], "result": 2 },
+    { "materials": ["icecream_stick", "jar"], "result": 3 },
+    { "materials": ["cardboard", "bond_paper"], "result": 4 },
+    { "materials": ["bottle_plastic"], "result": 5 },
+    { "materials": ["bottle_plastic", "straw"], "result": 6 },
+    { "materials": ["bottle_plastic", "flanel"], "result": 7 },
+    { "materials": ["straw"], "result": 8 },
+    { "materials": ["plastic_spoon"], "result": 9 },
+    { "materials": ["plastic_bag"], "result": 10 },
+    { "materials": ["glass_bottle", "bottle_plastic", "can"], "result": 11 },
+    { "materials": ["cardboard", "bottle_plastic"], "result": 12 },
+    { "materials": ["glass_bottle", "bottle_plastic"], "result": 13 },
+    { "materials": ["icecream_stick", "cardboard"], "result": 14 }
+  ]
+}
