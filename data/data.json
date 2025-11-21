@@ -167,8 +167,8 @@
     {
       "id": "glass_lamp",
       "name": "Lampu Hias Botol Kaca",
-      "image": "../assets/img/products/flower_art.jpg",
-      "required": ["glass_bottle", "bottle_plastic"],
+      "image": "../assets/img/products/glass_lamp.jpg",
+      "required": ["glass_bottle", "plastic_bottle"],
       "steps": [
         "Cuci bersih botol kaca dan pastikan labelnya sudah hilang",
         "Siapkan lampu LED kawat (fairy lights) yang menggunakan baterai",
@@ -221,15 +221,15 @@
     { "materials": ["icecream_stick"], "result": 2 },
     { "materials": ["icecream_stick", "jar"], "result": 3 },
     { "materials": ["cardboard", "bond_paper"], "result": 4 },
-    { "materials": ["bottle_plastic"], "result": 5 },
-    { "materials": ["bottle_plastic", "straw"], "result": 6 },
-    { "materials": ["bottle_plastic", "flanel"], "result": 7 },
+    { "materials": ["plastic_bottle"], "result": 5 },
+    { "materials": ["plastic_bottle", "straw"], "result": 6 },
+    { "materials": ["plastic_bottle", "flanel"], "result": 7 },
     { "materials": ["straw"], "result": 8 },
     { "materials": ["plastic_spoon"], "result": 9 },
     { "materials": ["plastic_bag"], "result": 10 },
-    { "materials": ["glass_bottle", "bottle_plastic", "can"], "result": 11 },
-    { "materials": ["cardboard", "bottle_plastic"], "result": 12 },
-    { "materials": ["glass_bottle", "bottle_plastic"], "result": 13 },
+    { "materials": ["glass_bottle", "plastic_bottle", "can"], "result": 11 },
+    { "materials": ["cardboard", "plastic_bottle"], "result": 12 },
+    { "materials": ["glass_bottle", "plastic_bottle"], "result": 13 },
     { "materials": ["icecream_stick", "cardboard"], "result": 14 }
   ]
 }
